@@ -1,0 +1,104 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  /* Budget component styling */
+  .budget {
+    margin: 20px auto;
+    max-width: 80dvw;
+    /* padding: 20px; */
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .budget h2{
+    background-color: #38e950d5;
+    padding: 1rem;
+    color: #180101;
+    border-radius: 0.5rem;
+  }
+  
+  /* AddExpense component styling */
+  .add-expense {
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+    background: #156dd88d;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-expense form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .add-expense input[type="text"],
+  .add-expense input[type="number"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .add-expense input[type="submit"] {
+    padding: 10px;
+    background: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .add-expense input[type="submit"]:hover {
+    background: #0056b3;
+  }
+  
+  /* Expense component styling */
+  .expense {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin:0.3rem 10dvw;
+    /* margin: 10px 0; */
+    background: #156dd88d;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expense p {
+    margin: 0;
+  }
+  
+  .expense button {
+    padding: 5px 10px;
+    background: #dc3545;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .expense button:hover {
+    background: #c82333;
+  }
+  
